@@ -1,0 +1,58 @@
+﻿div, h2, article, button, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: normal;
+}
+h2 {
+    font-size: 1.2em;
+
+}
+div {
+    width: 390px;
+    padding: 10px;
+    background-color: #eeeeee;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+article {
+    position: relative;
+    border: 1px solid #9a9997;
+    margin: 35px 0 25px 0;
+    padding: 15px;
+    background-color: white;
+    overflow: hidden;
+}
+
+img {
+    width: 135px;
+    height: 86px;
+    border: 1px solid #9a9997;
+    float: left;
+    margin-right: 15px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+button {
+    float: right;
+    background-image: url(images/button.png);
+    height: 24px;
+    color: white;
+    border: none;
+}
+
+    button.listen-button {
+        width: 76px;
+
+    }
+
+    button.add-button {
+        width: 65px;
+        margin-left: 5px;
+    }
+

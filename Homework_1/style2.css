@@ -1,0 +1,59 @@
+﻿body {
+    margin:0;
+}
+table {
+    font-family: Calibri;
+    font-size:small;
+    border-bottom: 1px solid #c1bfa5;
+    border-collapse:collapse;
+    margin: 0;
+    padding: 0;
+}
+th, td {
+    padding:4px;
+    padding-left: 6px;
+}
+
+th {
+    background-color: #59bd06;
+    font-weight: normal;
+    color: white;
+    text-align: left;
+    border-bottom: 1px solid #3f9110;
+    border-right: 1px solid #3f9110;
+    padding-bottom: 4px;
+}
+td {
+    border-right: 1px solid #c1bfa5;
+}
+
+.firstColumn {
+    width:138px;
+}
+.secondColumn {
+    width: 110px;
+}
+.thirdColumn {
+    width:124px;
+}
+.fourthColumn {
+    width:85px;
+}
+tr:nth-child(2n) {
+    background-color:#ededda;
+}
+.lastCell {
+    border-right: 0;
+    
+}
+input[type=checkbox] {
+    box-shadow: 2px 2px inset;
+}
+
+img {
+    width: 20px;
+    height: 15px;
+    vertical-align:top;
+}
+
+

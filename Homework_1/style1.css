@@ -1,0 +1,57 @@
+﻿body, table, tr, td, th, p {
+    margin:0;
+    padding:0;
+    border: 0;
+}
+
+body {
+    font-family: Arial;
+    font-size: 11px;
+    text-align: left;
+}
+table {
+    background-color: #595959;
+    width: 300px;
+}
+th {
+    font-size: 1.5em;
+    color:#b1afaf;
+    font-weight:100;
+    padding-top: 8px;
+}
+td {
+    vertical-align: top;
+    padding-top: 11px;
+}
+
+
+tr > td:first-child {
+    font-style:italic;
+    color: #ebecec;
+    width: 100px;
+}
+tr > td:last-child {
+    
+    color: #9ba7ab;
+}
+.name {
+    color:#d0c885;
+}
+p.name:before {
+    content: "•";
+    font-size: 3.6em;
+    line-height: 0.3em;
+    vertical-align: top;
+    color:#77b880;
+}
+.red {
+    color:red;
+}
+a {
+    color: #d0c885;
+    text-decoration: none;
+}
+#orange {
+    color:#d3682b;
+    font-weight:bold;
+}

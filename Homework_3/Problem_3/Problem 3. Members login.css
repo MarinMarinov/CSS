@@ -1,0 +1,70 @@
+﻿body {
+    width: 650px;
+    height: 300px;
+    border: 1px solid rgb(128, 104, 80);
+    border-radius: 8px;
+    margin: 0;
+    
+}
+
+    body > header {
+        background: linear-gradient(to bottom, #3b3b3b, #2b2b2b);
+        font-family: 'Times New Roman';
+        font-size: 1.3em;
+        font-weight: 600;
+        color: white;
+        border-radius: 8px 8px 0 0;
+    }
+
+        body > header form {
+            /*float: right;
+        margin-top: 10px;
+        margin-right: 20px;*/
+            position: absolute;
+            left: 60px;
+            top: 18px;
+        }
+
+img {
+    padding: 10px;
+}
+
+#go-button {
+    width: 58px;
+    height: 30px;
+    background-image: url(images/go.png);
+    color: white;
+    border: none;
+    background-color: transparent;
+}
+
+article {
+    background-color: rgb(59, 59, 59);
+    color: rgb(161, 161, 161);
+    padding-top: 10px;
+    border-radius: 0 0 8px 8px;
+}
+
+    article > h1 {
+        margin-top: 0;
+        margin-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 80px;
+        color: rgb(254,214,31);
+        font-size: 1.8em;
+        font-weight: 100;
+    }
+
+    article p {
+        margin: 0;
+        padding-left: 10px;
+        padding-right: 66px;
+    }
+
+        article p:last-of-type {
+            padding-bottom: 16px;
+        }
+
+body article p q {
+    color: white;
+}
